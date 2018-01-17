@@ -1,0 +1,16 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName www.deballetboetiek.nl
+AuthUserFile /home/virtual/site54/fst/var/www/html/_vti_pvt/service.pwd
+AuthGroupFile /home/virtual/site54/fst/var/www/html/_vti_pvt/service.grp
