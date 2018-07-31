@@ -1,4 +1,5 @@
 # -FrontPage-
+Redirect 301 / https://www.babsballetschool.nl
 
 IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
 
